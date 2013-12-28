@@ -2,7 +2,7 @@ PG TSQL
 ==========
 
 PG TSQL is an extension that provides a PostgreSQL procedural language that
-implements the Tract SQL language. Additionally, the extension provides a 
+implements the Transact-SQL language. Additionally, the extension provides a 
 number of built-in functions that are compatible with Sybase and SQL Server.
 
 Installation
