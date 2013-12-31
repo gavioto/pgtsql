@@ -1,12 +1,15 @@
-PG TSQL
-==========
+pgTSQL
+======
 
-PG TSQL is an extension that provides a PostgreSQL procedural language that
+pgTSQL is an extension that provides a PostgreSQL procedural language that
 implements the Transact-SQL language. Additionally, the extension provides a 
 number of built-in functions that are compatible with Sybase and SQL Server.
+For trying out a binary installation that includes this contrib module, take
+a look at http://www.tpostgres.org
 
-Installation
-------------
+
+Building from Source
+--------------------
 
 For installation there must be PostgreSQL dev environment installed
 and pg_config in the PATH.   Then just run:
