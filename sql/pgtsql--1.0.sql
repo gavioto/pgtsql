@@ -1,8 +1,7 @@
 /* 
- * Copyright (c) 2011-2013, Open Source Consulting Group, Inc.  All rights reserved.
+ * Copyright (c) 2011-2014, Open Source Consulting Group, Inc.  All rights reserved.
  */
 
-/* SQL Server catalogs */
 
 CREATE SCHEMA sys;
 

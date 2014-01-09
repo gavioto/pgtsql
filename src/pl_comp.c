@@ -3,7 +3,7 @@
  * pl_comp.c		- Compiler part of the PL/TSQL
  *			  procedural language
  *
- * Portions Copyright (c) 2011-2013, Open Source Consulting Group, Inc.  All rights reserved.
+ * Portions Copyright (c) 2011-2014, Open Source Consulting Group, Inc.  All rights reserved.
  *
  * Portions Copyright (c) 1996-2011, PostgreSQL Global Development Group
  * Portions Copyright (c) 1994, Regents of the University of California
