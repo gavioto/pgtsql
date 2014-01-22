@@ -5,9 +5,7 @@ pgTSQL is an extension that provides a PostgreSQL procedural language that
 implements the Transact-SQL language. Additionally, the extension provides a 
 number of built-in functions that are compatible with Sybase and SQL Server.
 
-For binary installations that include pgTSQL, take a look at 
-http://www.tpostgres.org (for a virtual machine) or 
-http://community.openscg.com/postgresql (for RPMs or DEBs)
+For PostgreSQL binaries that include pgTSQL, take a look at http://www.tpostgres.org 
 
 
 Building from Source
