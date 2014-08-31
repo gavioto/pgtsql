@@ -1,6 +1,6 @@
 # pgtsql extension
 comment = 'Transact SQL compatibility'
-default_version = '1.0'
+default_version = '9.4'
 module_pathname = '$libdir/pgtsql'
 relocatable = true
 superuser = true

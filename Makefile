@@ -2,15 +2,14 @@
 #
 # Makefile for the pgtsql extension 
 #
-# Portions Copyright (c) 2011-2013, Open Source Consulting Group, Inc. All rights reserved.
-#
-# Copyright (c) 1994, Regents of the University of California
+# Copyright (c) 2011-2014, Open Source Consulting Group, Inc.
+# Portions Copyright (c) 1994, Regents of the University of California
 #
 #-------------------------------------------------------------------------------------------
 
 EXTENSION  = pgtsql
 
-DISTVERSION = 1.0
+DISTVERSION = 9.4
 
 PG_CONFIG = pg_config
 PQINCSERVER = $(shell $(PG_CONFIG) --includedir-server)
@@ -21,7 +20,7 @@ MODULE_big = $(EXTENSION)
 OBJS = src/pl_gram.o src/pl_handler.o src/pl_comp.o src/pl_exec.o \
 	src/pl_funcs.o src/pl_scanner.o
 
-DATA = pgtsql.control sql/pgtsql--1.0.sql sql/pgtsql--unpackaged--1.0.sql
+DATA = pgtsql.control sql/pgtsql--9.4.sql sql/pgtsql--unpackaged--9.4.sql
 
 TESTS = $(wildcard test/sql/*.sql)
 REGRESS_OPTS = --dbname=regression --inputdir=test --load-extension=$(EXTENSION)

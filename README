@@ -1,6 +1,12 @@
 pgTSQL
 ======
 
+Core Committers
+----------------
+  Denis Lussier <denisl@openscg.com>
+  Muhammed Harroon <haroon@openscg.com>
+
+
 pgTSQL is an extension that provides a PostgreSQL procedural language that
 implements the Transact-SQL language. Additionally, the extension provides a 
 number of built-in functions that are compatible with Sybase and SQL Server.
@@ -10,6 +16,8 @@ For PostgreSQL binaries that include pgTSQL, take a look at http://www.tpostgres
 
 Building from Source
 --------------------
+
+The "master" branch is for building against PG 9.4...   The "9.3" branch is for PG 9.3.   If you need a version built against an older version of PG then let meknow (denisl@openscg.com).
 
 For installation there must be PostgreSQL dev environment installed
 and pg_config in the PATH.   Then just run:

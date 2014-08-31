@@ -3,8 +3,7 @@
  * pl_exec.c		- Executor for the PL/TSQL
  *			  procedural language
  *
- * Portions Copyright (c) 2011-2014, Open Source Consulting Group, Inc.  All rights reserved.
- *
+ * Copyright (c) 2011-2014, Open Source Consulting Group, Inc.
  * Portions Copyright (c) 1996-2011, PostgreSQL Global Development Group
  * Portions Copyright (c) 1994, Regents of the University of California
  *
